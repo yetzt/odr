@@ -188,12 +188,12 @@ You must specify the Open Data Repository Spec Version.
 	"version": "0.0.1",
 	"description": "some example data",
 	"license": "ODbL-1.0",
-	"files": {
+	"files": [
 		"data.json"
-	},
-	"contributors": {
+	],
+	"contributors": [{
 		"name": "yetzt"
-	},
+	}],
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/yetzt/odr.git"
