@@ -2,7 +2,11 @@
 
 `Open Data Repository` specifies a git repository structure to store open data. This is version `0.0.1` of the specification.
 
-## Package
+## Repository
+
+The data, license and metadata must be contained in a git repository and provided via git.
+
+## Metadata
 
 The repository must contain a file with meta information on the data. This file must be named `opendata.json` and contain valid JSON formatted data. 
 
