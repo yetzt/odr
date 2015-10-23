@@ -169,19 +169,24 @@ You must specify the Open Data Repository Spec Version.
 
 ``` json
 {
-	"name": "name",
+	"name": "some-data",
 	"version": "0.0.1",
-	"description": "brief description",
-	"keywords": ["key","words"],
-	"homepage": ""
-	"bugs": 
-	"license": "(CC0-1.0 OR PDDL-1.0 OR CC-BY-4.0 OR CC-BY-SA-4.0 OR ODbL-1.0)",
-	"author": 
-	"contributors": {},
-	"files": {}
+	"description": "some example data",
+	"license": "ODbL-1.0",
+	"files": {
+		"data.json"
+	},
+	"contributors": {
+		"name": "yetzt"
+	},
 	"repository": {
-	}
-	"engines": { "odr": "0.1" }
+		"type": "git",
+		"url": "https://github.com/yetzt/odr.git"
+	},
+	"keywords": ["key","words"],
+	"homepage": "https://github.com/yetzt/odr",
+	"bugs": "https://github.com/yetzt/odr/issues",
+	"engines": { "odr": "0.0.1" }
 }
 ```
 
