@@ -2,9 +2,24 @@
 
 `Open Data Repository` specifies a git repository structure to store open data. This is version `0.0.1` of the specification.
 
+The intent of this spec is to make open data accessible, portable and easily usable with software. This is achieved with machine readable metadata, univied access via git and strict license requirements.
+
 ## Repository
 
 The data, license and metadata must be contained in a git repository and provided via git.
+
+## Data
+
+The data format should comply with the [Open Format Definition](http://opendefinition.org/ofd/)
+
+## License
+
+The repository must contain a file with the full license text. This file must be named `LICENSE` for a plain text formatted license or `LICENSE.md` for a markdown formatted license. 
+The license must be an [Open Definition Approved License](http://opendefinition.org/licenses/)
+
+## Readme
+
+The repository must contain a file with a description of the data and it's format. This file must be named `README.md` and it's contents must be markdown formatted text.
 
 ## Metadata
 
@@ -189,16 +204,3 @@ You must specify the Open Data Repository Spec Version.
 	"engines": { "odr": "0.0.1" }
 }
 ```
-
-## License
-
-The repository must contain a file with the full license text. This file must be named `LICENSE` for a plain text formatted license or `LICENSE.md` for a markdown formatted license. 
-The license must be an [Open Definition Approved License](http://opendefinition.org/licenses/)
-
-## Readme
-
-The repository must contain a file with a description of the data and it's format. This file must be named `README.md` and it's contents must be markdown formatted text.
-
-## Data
-
-The data format should comply with the [Open Format Definition](http://opendefinition.org/ofd/)
